@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.header__container {
+  max-width: 1220px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin: 0 auto;
+}
+.header__wrap {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.header__logo {
+  width: 40px;
+}
+.header__name {
+  color: #BC9CFF;
+  font-size: 24px;
+}
+.header__menu {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+.header__menu-btn {
+  display: flex;
+  color: #BC9CFF;
+}
+.header__btn {
+  background-color: #BC9CFF;
+  padding: 10px 20px;
+  border-radius: 15px;
+  color: white;
+}
+
+.main {
+  background: url(../img/naberezhnye-chelny.jpg) no-repeat center center/cover;
+  height: 100vh;
+  margin-bottom: 50px;
+}
+.main__wrap {
+  text-align: center;
+  position: relative;
+  top: 250px;
+}
+.main__title {
+  font-size: 46px;
+  color: #866cbe;
+  padding-bottom: 20px;
+}
+.main__sub-text {
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+.main__btn {
+  background-color: #BC9CFF;
+  padding: 10px 10px;
+  border-radius: 20px;
+}
+
+.container {
+  max-width: 1220px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.slide {
+  height: 80vh;
+  border-radius: 20px;
+  margin: 10px;
+  cursor: pointer;
+  color: white;
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  transition: all 500ms ease-in-out;
+}
+
+.slide h3 {
+  position: absolute;
+  font-size: 24px;
+  bottom: 20px;
+  left: 20px;
+  margin: 0;
+  opacity: 0;
+}
+
+.slide.active {
+  flex: 10;
+}
+
+.slide.active h3 {
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
+}
+
+.sub-main {
+  margin-top: 100px;
+}
+.sub-main__container {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+.sub-main__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sub-main__pic {
+  width: 600px;
+}
+.sub-main__text-block {
+  position: relative;
+  text-align: start;
+  width: 400px;
+}
+.sub-main__title {
+  padding-bottom: 20px;
+}/*# sourceMappingURL=index.css.map */
